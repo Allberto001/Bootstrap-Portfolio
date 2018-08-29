@@ -131,14 +131,14 @@ form{
 #copyright{
     color:white;
 }
-#footer{
+/*#footer{
     color:white;
     text-align: center;
     background-color:#666666;
     border-top: solid;
     border-color:#4aaaa5;
     border-width: 10px;
-}
+}*/
 li:first-child {
     border-left: none;
 }
