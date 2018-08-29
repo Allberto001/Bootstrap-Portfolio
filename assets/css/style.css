@@ -7,7 +7,7 @@
     clear: both;
 }
 .content_background{
-    width:960px;
+   /* width:960px;*/
     padding:20px;
    /* border:30px #dddddd;*/
     margin:auto;
@@ -15,13 +15,23 @@
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 .content_background2{
-    width:960px;
-    height: 900px;
+/*width:960px;
+    height: 900px;*/
     padding:20px;
    /* border:30px #dddddd;*/
     margin:auto;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: auto;
+}
+.portfolio_content{
+    /*width:960px;
+    /*height: 900px;*/
+    padding:20px;
+    margin:auto;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    overflow: auto;
 }
 #h1{
     font-family: Georgia, Times, Times New Roman, serif;
@@ -79,83 +89,45 @@ form{
     color:white;
     padding:10px
 }
-.container {
+/*.container {
     position: relative;
     font-family:'Georgia', Times, Times New Roman, serif;
-}
-.text-block {
-    position: absolute;
-    background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 219px;
-    text-align: center;
-    margin-left:20px;
-    margin-top: 145px;
-}  
-h4{
-    color:white;
-    font-family: Georgia, Times, Times New Roman, serif;
-} 
-pic2{
+}*/
+.projects {
+    position: relative;
     float: left;
-    margin: 20px;
-} 
-.text-block2{
+    width: 274px;
+    margin: 25px;
+   
+  }
+  
+  .projects img {
+    width: 100%;
+    border: 0 none;
+   
+  }
+  
+  h4 {
     position: absolute;
-    background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 219px;
+    bottom: 20px;
+    width: 254px;
+    padding: 10px;
+    Margin-left: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #fff;
     text-align: center;
-    margin-left: 319px;
-    margin-top: 145px;
-} 
-.row2{
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
+  
+  .auth-image {
     float: left;
-   margin-right: 300px;
-}  
-.text-block3 {
-    position: absolute;
-    background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 219px;
-    text-align: center;
-    margin-left:20px;
-    margin-top: 380px;
-}  
-.row2pic2{
-   float:left;
-   margin-right:100px;
-}
-.text-block4 {
-    position: absolute;
-    background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 219px;
-    text-align: center;
-    margin-left:20px;
-    margin-top: 613px;
-}
-.rutgerspic{
-    position: absolute;
-    float: left;
-    margin-left: 300px;
-    margin-top: 230px;
-    
-}  
-.text-block5 {
-    position: absolute;
-    background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 219px;
-    text-align: center;
-    margin-left: 320px;
-    margin-top: 376px;
-}
+    width: 200px;
+    height: auto;
+    margin-top: 5px;
+    margin-right: 25px;
+  }
 #copyright{
     color:white;
 }
